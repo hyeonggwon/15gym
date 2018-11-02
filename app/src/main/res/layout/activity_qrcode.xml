@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="QR코드를 찍어주세요"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:layout_marginBottom="50dp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+
+    <TextView
+        android:id="@+id/qrtext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="NAME" />
+
+    <TextView
+        android:id="@+id/qrtext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="레그프레스"/>
+
+    <TextView
+        android:id="@+id/qrtext3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="URL" />
+
+    <TextView
+        android:id="@+id/qrtext4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="https://www.youtube.com/results?search_query=%EB%A0%88%EA%B7%B8%ED%94%84%EB%A0%88%EC%8A%A4"/>
+
+    <TextView
+        android:id="@+id/qrtext5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <Button
+        android:id="@+id/scanbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onScanButtonClicked"
+        android:layout_weight="1"
+        android:text="SCAN" />
+
+    <Button
+        android:id="@+id/ipjangbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onipjangButtonClicked"
+        android:layout_weight="1"
+        android:text="입장" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.hyunil.a15gym.MenuActivity">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="223dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/logo" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        android:layout_gravity="center"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:stretchColumns="0,1,2">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/goal_button"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:background="#000000"
+                app:srcCompat="@drawable/target" />
+
+            <ImageButton
+                android:id="@+id/notice_button"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:background="#000000"
+                app:srcCompat="@drawable/notice" />
+
+            <ImageButton
+                android:id="@+id/chat_button"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:background="#000000"
+                app:srcCompat="@drawable/chat" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/menu1"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:text="목표달성도"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/menu2"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:text="공지사항"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/menu3"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:text="채팅하기"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/iljung_button"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:background="#000000"
+                android:onClick="onPlannerButtonClicked"
+                app:srcCompat="@drawable/iljung" />
+
+            <ImageButton
+                android:id="@+id/qr_button"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:background="#000000"
+                android:onClick="onQRButtonClicked"
+                app:srcCompat="@drawable/qricon" />
+
+            <ImageButton
+                android:id="@+id/timer_button"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:background="#000000"
+                app:srcCompat="@drawable/timer" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/menu4"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:text="일정관리"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/menu5"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:text="QR코드"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:id="@+id/menu6"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:text="타이머"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                />
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"/>
+
+            <ImageButton
+                android:id="@+id/profile_button"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:background="#000000"
+                android:onClick="onProfileButtonClicked"
+                app:srcCompat="@drawable/profile" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="80dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                />
+
+            <TextView
+                android:id="@+id/menu7"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:text="프로필보기"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:text="madeBy15gym"
+        android:textColor="#FFFFFF"
+        android:layout_weight="0.1"/>
+</LinearLayout>

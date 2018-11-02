@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">15GYM</string>
+    <string name="enter_button">연결</string>
+    <string name="on_line">온라인</string>
+    <string name="trainer">트레이너</string>
+    <string name="off_line">오프라인</string>
+    <string name="add">추가</string>
+    <string name="delete">삭제</string>
+    <string name="exercise">운동할 것</string>
+    <string name="how_much">운동 횟수</string>
+    <string name="do_it">DO IT!</string>
+    <string name="delete_message">메세지 삭제</string>
+    <string name="goal">목표</string>
+
+    <string name="notice">공지사항</string>
+    <string name="timer">타이머</string>
+    <string name="write">글쓰기</string>
+    <string name="complete">완료</string>
+    <string name="hour">시</string>
+    <string name="min">분</string>
+    <string name="sec">초</string>
+    <string name="next">다음</string>
+    <string name="start">시작</string>
+    <string name="pause">중지</string>
+    <string name="contin">계속</string>
+    <string name="init">초기화</string>
+    <string name="colon">:</string>
+    <string name="zerozero">00</string>
+    <string name="zero">0</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="title">제목</string>
+    <string name="inside">내용</string>
+    <string name="you_can">LET'S DO IT! YOU CAN DO IT!</string>
+</resources>

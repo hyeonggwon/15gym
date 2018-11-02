@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#C000">
+    <RadioGroup
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/do_it"
+            android:id="@+id/radio"
+            android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+    <EditText
+        android:id="@+id/kindOfExerciseText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:freezesText="true"
+        android:layout_weight="3"
+        android:clickable="false"/>
+    <EditText
+        android:id="@+id/numberOfExerciseText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:freezesText="true"
+        android:textColor="@android:color/white"
+        android:clickable="false"/>
+</LinearLayout>
+
+
